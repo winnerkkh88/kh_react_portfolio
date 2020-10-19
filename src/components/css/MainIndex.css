@@ -1,0 +1,85 @@
+/* Footer */
+@import url("https://fonts.googleapis.com/css?family=Rouge+Script&display=swap");
+
+.opacity-0_8 {
+    opacity: 0.8;
+    height: "55px";
+}
+
+/* Home background image */
+#routing {
+    margin-top: 56px;
+}
+
+/* Home background image */
+.home-background {
+    background: url("./image/home-background.jpg") repeat center/cover;
+    background-attachment: fixed;
+}
+
+.hover_wrapper:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    display: block;
+    text-align: center;
+    z-index: 1;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+/************************************************ Home.js css ************************************************/
+.wanted-job-position {
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-family: "Rouge Script", cursive;
+    line-height: 90px;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    text-shadow: -2px -2px #000;
+}
+
+.tagline-myname {
+    font-size: 35px;
+    margin-bottom: 60px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    line-height: 56px;
+    word-spacing: 2px;
+    text-shadow: 2px 2px #1c2725;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-shadow: -3px -3px #000;
+}
+
+.current-date-time {
+    font-size: 50px;
+    overflow: hidden;
+    height: 200px;
+    color: white;
+    text-shadow: -2px -2px #000;
+    padding-top: 5rem;
+}
+
+.hire-me {
+    width: 200px !important;
+    font-size: 1.5rem;
+    margin-bottom: -25px;
+    text-shadow: -2px -2px #000;
+    font-weight: bold;
+    text-decoration: none;
+}

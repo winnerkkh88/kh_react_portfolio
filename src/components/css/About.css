@@ -1,0 +1,128 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Varela+Round&display=swap");
+
+/************************************************ About.js page css ************************************************/
+.heading-title {
+    padding-top: 20px;
+    margin-bottom: 15px;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.heading-subtitle {
+    font-size: 18px;
+    margin-bottom: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+    font-family: "Playfair Display", serif;
+}
+
+.aboutme-introduction {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: -10px 19px 38px rgba(83, 83, 83, 0.3),
+        10px 15px 12px rgba(80, 80, 80, 0.22);
+    padding: 1em;
+    margin-left: 12px;
+    border-radius: 12px;
+    width: 97%;
+}
+
+.introduction-frame {
+    margin-bottom: 75px;
+}
+
+.download-button {
+    margin: 0 auto;
+    width: 100%;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Lexend Exa", sans-serif;
+    margin-bottom: 15px;
+}
+
+.aboutme-experiences {
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: -10px 19px 38px rgba(83, 83, 83, 0.3),
+        10px 15px 12px rgba(80, 80, 80, 0.22);
+    padding: 1em;
+    margin-left: 12px;
+    border-radius: 12px;
+    width: 97%;
+}
+
+/* ===  Image hover effect === */
+.mouseOver-effect:hover figcaption {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.mouseOver-effect figcaption {
+    background: rgba(0, 0, 0, 0.75);
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.mouseOver-effect {
+    overflow: hidden;
+    text-align: center;
+    /* cursor: pointer; */
+}
+
+.img-logo {
+    margin-left: -12px;
+}
+
+.experience-details {
+    margin-top: 30px;
+}
+
+.data-handling-sentence {
+    color: gray;
+    font-size: 30px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.experience-subject {
+    font-size: 20px;
+    font-family: "Varela Round", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
